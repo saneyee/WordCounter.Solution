@@ -32,11 +32,13 @@ namespace WordCounter.Tests
             int result = newRepeatCounter.CountRepeats();
             Assert.AreEqual(output, result);
         }
+        public void WordCounter_NoWordMatch_int()
+        {
+            RepeatCounter newRepeatCounter = new RepeatCounter("I am going to London.","cat");
+            var output = 0;
+            int result = newRepeatCounter.CountRepeats();
+            Assert.AreEqual(output, result);
+        }
  }
-
-
-
-
-
 
 }
