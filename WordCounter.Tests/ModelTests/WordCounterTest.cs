@@ -32,6 +32,7 @@ namespace WordCounter.Tests
             int result = newRepeatCounter.CountRepeats();
             Assert.AreEqual(output, result);
         }
+        [TestMethod]
         public void WordCounter_NoWordMatch_int()
         {
             RepeatCounter newRepeatCounter = new RepeatCounter("I am going to London.","cat");
