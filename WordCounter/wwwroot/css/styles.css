@@ -1,13 +1,16 @@
 
 body {
-    background-color: yellow;
-    color: #5b9ac6;
+    background-color: black;
+    color: #5b9ad9;
+    text-align: center;
 }
 .jumbotron {
     text-align: center;
-    background-color: red;
+    background-color: lightblue;
 }
 .well {
     width: 30%;
-    background-color: red;
+    background-color: lightblue;
+    margin-left: 35%;
+
 }
